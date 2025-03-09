@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import OverviewPage from "./Pages/OverviewPage";
 import ProductsPage from "./Pages/ProductsPage";
 import UsersPage from "./pages/UsersPage";
 import SalesPage from "./pages/SalesPage";
@@ -8,6 +7,7 @@ import OrdersPage from "./pages/OrdersPage";
 import AnalyticsPage from "./pages/AnalyticsPage";
 import SettingsPage from "./pages/SettingsPage";
 import Sidebar from "./components/common/Sidebar";
+import OverviewPage from "./Pages/OverviewPage";
 
 function App() {
   return (
